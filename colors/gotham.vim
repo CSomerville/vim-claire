@@ -16,7 +16,7 @@
 hi clear
 if exists('syntax_on') | syntax reset | endif
 set background=dark
-let g:colors_name = 'gotham'
+let g:colors_name = 'claire'
 
 
 " Helper functions =============================================================
@@ -68,24 +68,24 @@ endfunction
 let s:colors = {}
 
 " Base colors.
-let s:colors.base0 = { 'gui': '#0c1014', 'cterm': 0 }
-let s:colors.base1 = { 'gui': '#11151c', 'cterm': 8 }
-let s:colors.base2 = { 'gui': '#091f2e', 'cterm': 10 }
-let s:colors.base3 = { 'gui': '#0a3749', 'cterm': 12 }
-let s:colors.base4 = { 'gui': '#245361', 'cterm': 11 }
-let s:colors.base5 = { 'gui': '#599cab', 'cterm': 14 }
-let s:colors.base6 = { 'gui': '#99d1ce', 'cterm': 7 }
-let s:colors.base7 = { 'gui': '#d3ebe9', 'cterm': 15 }
+let s:colors.base0 = { 'gui': '#000000', 'cterm': 0 }
+let s:colors.base1 = { 'gui': '#000000', 'cterm': 8 }
+let s:colors.base2 = { 'gui': '#000000', 'cterm': 10 }
+let s:colors.base3 = { 'gui': '#f76961', 'cterm': 12 }
+let s:colors.base4 = { 'gui': '#a4a4a6', 'cterm': 11 }
+let s:colors.base5 = { 'gui': '#3c9682', 'cterm': 14 }
+let s:colors.base6 = { 'gui': '#1d6a87', 'cterm': 7 }
+let s:colors.base7 = { 'gui': '#ad5713', 'cterm': 15 }
 
 " Other colors.
-let s:colors.red     = { 'gui': '#c23127', 'cterm': 1  }
-let s:colors.orange  = { 'gui': '#d26937', 'cterm': 9  }
-let s:colors.yellow  = { 'gui': '#edb443', 'cterm': 3  }
-let s:colors.magenta = { 'gui': '#888ca6', 'cterm': 13 }
-let s:colors.violet  = { 'gui': '#4e5166', 'cterm': 5  }
-let s:colors.blue    = { 'gui': '#195466', 'cterm': 4  }
-let s:colors.cyan    = { 'gui': '#33859E', 'cterm': 6  }
-let s:colors.green   = { 'gui': '#2aa889', 'cterm': 2  }
+let s:colors.red     = { 'gui': '#f76961', 'cterm': 1  }
+let s:colors.orange  = { 'gui': '#f76961', 'cterm': 9  }
+let s:colors.yellow  = { 'gui': '#3c9682', 'cterm': 3  }
+let s:colors.magenta = { 'gui': '#1d6a87', 'cterm': 13 }
+let s:colors.violet  = { 'gui': '#a4a4a6', 'cterm': 5  }
+let s:colors.blue    = { 'gui': '#3c9682', 'cterm': 4  }
+let s:colors.cyan    = { 'gui': '#1d6a87', 'cterm': 6  }
+let s:colors.green   = { 'gui': '#ad5713', 'cterm': 2  }
 
 " Neovim :terminal colors.
 let g:terminal_color_0  = get(s:colors.base0, 'gui')
